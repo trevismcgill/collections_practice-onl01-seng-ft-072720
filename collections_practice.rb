@@ -51,7 +51,7 @@ def add_s(array)
     if index == 1
     nil
     else
-      item.push("s")
+      item << "s"
     end
   end
 end
