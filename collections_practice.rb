@@ -47,5 +47,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-
+  array.each_with_index do |item, index|
+    if index == 1
+    nil
+    else
+      item.push("s")
+    end
+  end
 end
