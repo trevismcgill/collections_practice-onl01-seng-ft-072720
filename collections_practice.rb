@@ -33,7 +33,13 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-
+  a_array = []
+  array.each do |a_test|
+    if a_test[0] == "a"
+      a_array.push(a_test)
+    end
+  end
+    return a_array
 end
 
 def sum_array(array)
